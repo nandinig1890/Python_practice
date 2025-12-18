@@ -1,0 +1,96 @@
+python
+=========
+
+def nandu(): → defines a function named nandu
+
+print("hello, nandu") → runs when the function is called
+
+nandu() → calls the function
+
+--------------------------------------------
+
+1. def add_numbers(...)   → function definition
+2. add_numbers(3,4)       → function call
+3. total = 3 + 4
+4. return 7
+5. result = 7
+6. print output
+
+
+
+Function code runs ONLY when the function is called, not when it is defined.
+
+
+
+def add_numbers(num1, num2):
+Function name add_numbers is stored in memory
+
+Function body is saved
+
+❗ No execution yet
+
+
+
+⭐ Important rules to remember
+
+✔ Variables inside a function exist only during function execution
+✔ After return, function memory is cleared
+✔ Returned value is stored in the calling variable
+✔ Python manages memory automatically (no manual delete)
+
+
+
+
+List
+=====
+duplicates allowed
+mutable 
+append(last lo add aithadi)
+extend([last lo extend cheyyi])
+insert(index-place-lo, this value will insert)
+
+
+tuple
+========
+immutable = tuples cant be modified once created
+duplicates allowed bcz indexing undi
+
+
+Methods like append(), remove(), pop(), etc., are not available.
+
+
+SETS :
+==========
+
+
+    No Duplicate Elements:   Sets automatically remove duplicate elements.
+    Unordered: Sets do not maintain the order of elements.
+    Mutable: You can add or remove elements from a set.
+	
+    Use Cases: Sets are useful for removing duplicates from a collection, checking for membership, and performing set operations like union, intersection, and difference.
+    
+
+
+STATICALLY TYPED  VS DYNAMIC TYPED 
+=======================================
+
+x = 10
+
+Dynamic typing means that the type of a variable is determined at runtime, not in advance. You do not need to declare the type of a variable when you create it. 
+
+
+Static typing means that the type of a variable is known at compile time. You must declare the type of a variable before you use it, and this type cannot change throughout the program. Languages like C, C++, go  and Java are statically typed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
